@@ -22,52 +22,52 @@
 
 **403 Bypass Tool** is an advanced security testing framework designed for penetration testers, bug bounty hunters, and security researchers to analyze HTTP `403 Forbidden` access control behavior.
 
-The tool automates authorized testing by applying multiple request manipulation techniques to identify potential access control weaknesses and misconfigurations.
+The tool automates authorized security testing by applying multiple request manipulation techniques to identify potential access control weaknesses, security misconfigurations, and improper access restrictions.
 
-Built with a modular architecture, the framework supports multiple bypass categories, customizable scanning options, proxy integration, and professional reporting.
+Built with a modular architecture, the framework supports multiple testing categories, customizable scanning options, proxy integration, and professional reporting.
 
 ---
 
 # Features
 
-## 🔥 Core Capabilities
+## Core Capabilities
 
-- Advanced 403 response testing
-- Automated bypass technique execution
+- Advanced HTTP 403 response testing
+- Automated access control testing techniques
 - Multi-threaded scanning engine
 - Custom request handling
 - HTTP response analysis
-- Detailed result reporting
+- Detailed security assessment reports
 
 ---
 
-## 🚀 Bypass Categories
+## Testing Categories
 
 Supported testing modules:
 
 - Header-based testing
 - Path manipulation testing
 - HTTP method testing
-- URL encoding testing
+- URL encoding analysis
 - Cache behavior testing
-- CDN configuration testing
+- CDN configuration analysis
 - WAF behavior analysis
 
 ---
 
-## ⚡ Performance
+## Performance
 
-- Multi-threaded requests
+- Multi-threaded request processing
 - Configurable worker threads
-- Custom timeout support
+- Custom timeout configuration
 - Proxy support
 - Verbose debugging mode
 
 ---
 
-## 📊 Reporting
+## Reporting
 
-Generate reports in multiple formats:
+Generate security testing reports in multiple formats:
 
 - TXT
 - JSON
@@ -77,4 +77,4 @@ Generate reports in multiple formats:
 Example:
 
 ```bash
-403.py -u https://target.com/admin -o report.json --format json
+python3 403.py -u https://target.com/admin -o report.json --format json
